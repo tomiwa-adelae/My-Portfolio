@@ -72,7 +72,11 @@ const pick = () => {
                   Pick Me Fashions is an E-Commerce web application that
                   facilitates online buying and selling.
                </p>
-               <a target="_blank" href="http://pickmefashions.herokuapp.com/">
+               <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="http://pickmefashions.herokuapp.com/"
+               >
                   <div className="btn btn-brown">
                      Visit Website <i className="fas fa-angle-right"></i>
                   </div>
@@ -125,10 +129,15 @@ const pick = () => {
                <a
                   target="_blank"
                   href="https://www.facebook.com/adelae.tomiwa/"
+                  rel="noopener noreferrer"
                >
                   <i className="fab fa-facebook"></i>
                </a>
-               <a target="_blank" href="https://www.instagram.com/thetommedia/">
+               <a
+                  target="_blank"
+                  href="https://www.instagram.com/thetommedia/"
+                  rel="noopener noreferrer"
+               >
                   <i className="fab fa-instagram"></i>
                </a>
                <a target="_blank" href="https://twitter.com/TheTomMedia">
@@ -136,14 +145,23 @@ const pick = () => {
                </a>
                <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/tomiwa-ademola-6a08181b7/"
                >
                   <i className="fab fa-linkedin"></i>
                </a>
-               <a target="_blank" href="https://github.com/AdemolaTomiwa">
+               <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/AdemolaTomiwa"
+               >
                   <i className="fab fa-github"></i>
                </a>
-               <a target="_blank" href="mailto:adelaetomiwa6@gmail.com">
+               <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="mailto:adelaetomiwa6@gmail.com"
+               >
                   <i className="fas fa-envelope"></i>
                </a>
             </div>
