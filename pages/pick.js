@@ -1,22 +1,7 @@
-import React, { useEffect, useState } from 'react';
 import Meta from '../components/Meta';
 import Link from 'next/link';
 
 const pick = () => {
-   const [show, setShow] = useState(false);
-
-   useEffect(() => {
-      const changeHeaderBg = () => {
-         if (window.scrollY >= 300) {
-            setShow(true);
-         } else {
-            setShow(false);
-         }
-      };
-
-      window.addEventListener('scroll', changeHeaderBg);
-   }, []);
-
    return (
       <div className="pick">
          <Meta
@@ -100,19 +85,6 @@ const pick = () => {
                </div>
             </div>
          </div>
-         {show && (
-            <div
-               onClick={() => {
-                  window.scroll({
-                     top: 0,
-                     behavior: 'smooth',
-                  });
-               }}
-               className="icon-btn brown"
-            >
-               <i className={`fas fa-angle-up`}></i>
-            </div>
-         )}
          <footer>
             <h2
                onClick={() => {
@@ -140,7 +112,11 @@ const pick = () => {
                >
                   <i className="fab fa-instagram"></i>
                </a>
-               <a target="_blank" href="https://twitter.com/TheTomMedia">
+               <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://twitter.com/TheTomMedia"
+               >
                   <i className="fab fa-twitter"></i>
                </a>
                <a

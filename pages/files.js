@@ -1,22 +1,7 @@
-import React, { useEffect, useState } from 'react';
 import Meta from '../components/Meta';
 import Link from 'next/link';
 
 const files = () => {
-   const [show, setShow] = useState(false);
-
-   useEffect(() => {
-      const changeHeaderBg = () => {
-         if (window.scrollY >= 300) {
-            setShow(true);
-         } else {
-            setShow(false);
-         }
-      };
-
-      window.addEventListener('scroll', changeHeaderBg);
-   }, []);
-
    return (
       <div className="files">
          <Meta
@@ -102,19 +87,7 @@ const files = () => {
                </div>
             </div>
          </div>
-         {show && (
-            <div
-               onClick={() => {
-                  window.scroll({
-                     top: 0,
-                     behavior: 'smooth',
-                  });
-               }}
-               className="icon-btn green"
-            >
-               <i className={`fas fa-angle-up`}></i>
-            </div>
-         )}
+
          <footer>
             <h2
                onClick={() => {

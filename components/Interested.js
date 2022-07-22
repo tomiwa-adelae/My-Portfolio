@@ -5,7 +5,7 @@ const Interested = () => {
          <div className="content">
             <h3>Interested in working with me?</h3>
             <p>
-               I'm always willing to talk about product design and development
+               I am always willing to talk about product design and development
                work, as well as partnership opportunities.
             </p>
             <Link href="/contact">
