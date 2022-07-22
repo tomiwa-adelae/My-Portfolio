@@ -2,7 +2,7 @@ const About = () => {
    return (
       <div className="about">
          <div className="content">
-            <h3>Hi I am Tom. Nice to meet you</h3>
+            <h3>Hi, I am Tom. Nice to meet you</h3>
             <p>
                Since beginning my journey as a website programmer and freelancer
                over two years ago, I have created various personal projects and
