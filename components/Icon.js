@@ -26,7 +26,7 @@ const Icon = () => {
             }}
             className="icon-btn"
          >
-            <i className="fas fa-angle-up"></i>
+            <i className={`fas fa-angle-up`}></i>
          </div>
       )
    );

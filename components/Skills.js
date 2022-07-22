@@ -12,8 +12,8 @@ const Skills = () => {
                      <i className="fas fa-edit"></i> Designer
                   </h3>
                   <p>
-                     I value simple content structure, clean design patterns,
-                     and thoughtful interactions.
+                     Simple content structure, clean design patterns, and
+                     thoughtful interactions are important to me.
                   </p>
                </div>
                <div className="box">
@@ -23,18 +23,15 @@ const Skills = () => {
                      <li>UI</li>
                      <li>Web</li>
                      <li>Apps</li>
-                     <li>Logos</li>
                   </ul>
                </div>
                <div className="box">
                   <h5>Design Tools:</h5>
                   <ul>
-                     <li>Affinity Designer</li>
                      <li>Figma</li>
                      <li>Font Awesome</li>
                      <li>Pen & Paper</li>
                      <li>Sketch</li>
-                     <li>Webflow</li>
                   </ul>
                </div>
             </div>
@@ -44,33 +41,29 @@ const Skills = () => {
                      <i className="fas fa-code"></i> Frontend Developer
                   </h3>
                   <p>
-                     I like to code things from scratch, and enjoy bringing
-                     ideas to life in the browser.
+                     I enjoy writing code from scratch and bringing ideas to
+                     life in the browser.
                   </p>
                </div>
                <div className="box">
-                  <h5>Languages I speak:</h5>
+                  <h5>Frontend Languages I speak:</h5>
                   <ul>
                      <li>HTML</li>
-                     <li>Pug</li>
-                     <li>Slim</li>
-                     <li>CSS</li>
-                     <li>Sass</li>
+                     <li>CSS & Sass</li>
+                     <li>React JS & Next JS</li>
+                     <li>JavaScript</li>
                      <li>Git</li>
                   </ul>
                </div>
                <div className="box">
-                  <h5>Dev Tools:</h5>
+                  <h5>Development Tools:</h5>
                   <ul>
-                     <li>Atom</li>
-                     <li>Bitbucket</li>
+                     <li>Visual Studio Code</li>
                      <li>Bootstrap</li>
-                     <li>Bulma</li>
-                     <li>Codekit</li>
+                     <li>Materialize CSS</li>
+                     <li>Codepen</li>
                      <li>Github</li>
-                     <li>Surge</li>
                      <li>Terminal</li>
-                     <li>Vercel</li>
                   </ul>
                </div>
             </div>
@@ -80,32 +73,28 @@ const Skills = () => {
                      <i className="fas fa-code"></i> Backend Developer
                   </h3>
                   <p>
-                     I like to code things from scratch, and enjoy bringing
-                     ideas to life in the browser.
+                     I enjoy writing code from the ground up, such as web
+                     servers and APIs, as well as database interactions.
                   </p>
                </div>
                <div className="box">
-                  <h5>Things I enjoy designing:</h5>
+                  <h5>Backend Languages I speak:</h5>
                   <ul>
-                     <li>HTML</li>
-                     <li>Pug</li>
-                     <li>Slim</li>
-                     <li>CSS</li>
-                     <li>Sass</li>
-                     <li>Git</li>
+                     <li>Node JS</li>
+                     <li>Express JS</li>
+                     <li>MongoDB</li>
+                     <li>Python</li>
                   </ul>
                </div>
                <div className="box">
-                  <h5>Design Tools:</h5>
+                  <h5>Development Tools:</h5>
                   <ul>
-                     <li>Atom</li>
-                     <li>Bitbucket</li>
-                     <li>Bootstrap</li>
-                     <li>Bulma</li>
-                     <li>Codekit</li>
-                     <li>Github</li>
-                     <li>Surge</li>
+                     <li>Visual Studio Code</li>
                      <li>Terminal</li>
+                     <li>Git Bash</li>
+                     <li>Github</li>
+                     <li>Terminal</li>
+                     <li>Heroku</li>
                      <li>Vercel</li>
                   </ul>
                </div>

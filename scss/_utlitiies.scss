@@ -1,7 +1,10 @@
 .container {
    width: 85%;
    margin: auto;
-   // background-color: red;
+}
+
+a {
+   text-decoration: none;
 }
 
 img {
@@ -32,6 +35,26 @@ h5 {
    font-size: 1.5rem;
 }
 
+h6 {
+   font-size: 1rem;
+}
+
+.text-primary {
+   color: $primary-color;
+}
+
+.text-green {
+   color: $green-color;
+}
+
+.text-brown {
+   color: $brown-color;
+}
+
+.text-gold {
+   color: $gold-color;
+}
+
 .btn {
    padding: 0.5rem 1rem;
    font-size: 0.9rem;
@@ -50,6 +73,39 @@ h5 {
 
       &:hover {
          background-color: $primary-color;
+         color: $white-color;
+      }
+   }
+
+   &-green {
+      border: 2px solid $green-color;
+      background-color: transparent;
+      color: $green-color;
+
+      &:hover {
+         background-color: $green-color;
+         color: $white-color;
+      }
+   }
+
+   &-brown {
+      border: 2px solid $brown-color;
+      background-color: transparent;
+      color: $brown-color;
+
+      &:hover {
+         background-color: $brown-color;
+         color: $white-color;
+      }
+   }
+
+   &-gold {
+      border: 2px solid $gold-color;
+      background-color: transparent;
+      color: $gold-color;
+
+      &:hover {
+         background-color: $gold-color;
          color: $white-color;
       }
    }

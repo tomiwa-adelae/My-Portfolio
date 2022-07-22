@@ -27,6 +27,7 @@ header {
       font-family: 'Smooch', cursive;
       font-size: 2rem;
       font-weight: lighter;
+      letter-spacing: 5px;
       animation: shakeHead 3s forwards;
       cursor: pointer;
    }
@@ -45,10 +46,6 @@ header {
       }
    }
 
-   span {
-      color: $primary-color;
-   }
-
    .btn {
       &-primary {
          animation: shake 3s forwards;
@@ -57,14 +54,12 @@ header {
       @keyframes shake {
          0% {
             transform: translateX(-100%);
-            border: 2px solid transparent;
          }
          50% {
             transform: translateX(20%);
          }
          100% {
             transform: translateX(0%);
-            border: 2px solid $primary-color;
          }
       }
    }
@@ -80,6 +75,7 @@ header {
    h1 {
       font-family: 'Smooch', cursive;
       font-weight: lighter;
+      letter-spacing: 20px;
       font-size: 7rem;
       line-height: 1.5;
       @include easeOut();
@@ -201,6 +197,23 @@ header {
             .btn {
                margin: 2rem 0;
                width: initial;
+
+               i {
+                  animation: moveIcon 2s infinite;
+               }
+
+               @keyframes moveIcon {
+                  0% {
+                     transform: translateX(0%);
+                  }
+                  50% {
+                     transform: translateX(100%);
+                     color: $white-color;
+                  }
+                  100% {
+                     transform: translateX(0%);
+                  }
+               }
             }
 
             h3 {
@@ -350,6 +363,7 @@ header {
 }
 
 .interested {
+   padding-bottom: 4rem;
    .content {
       width: 70%;
       margin: auto;
@@ -403,6 +417,108 @@ header {
    }
 }
 
+.green {
+   background-color: darken($grey-color, 10%);
+   padding: 1rem 1.5rem;
+   border-radius: 100%;
+   margin-top: 3rem;
+   width: 4rem;
+   position: fixed;
+   bottom: 3%;
+   right: 2%;
+   z-index: 7;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 4rem;
+   cursor: pointer;
+   @include easeOut();
+
+   i {
+      font-size: 2.3rem;
+      font-weight: 400;
+      color: $green-color;
+      animation: move 3s infinite;
+      @include easeOut();
+   }
+
+   &:hover {
+      background-color: $green-color;
+
+      i {
+         color: $white-color;
+      }
+   }
+}
+
+.brown {
+   background-color: darken($grey-color, 10%);
+   padding: 1rem 1.5rem;
+   border-radius: 100%;
+   margin-top: 3rem;
+   width: 4rem;
+   position: fixed;
+   bottom: 3%;
+   right: 2%;
+   z-index: 7;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 4rem;
+   cursor: pointer;
+   @include easeOut();
+
+   i {
+      font-size: 2.3rem;
+      font-weight: 400;
+      color: $brown-color;
+      animation: move 3s infinite;
+      @include easeOut();
+   }
+
+   &:hover {
+      background-color: $brown-color;
+
+      i {
+         color: $white-color;
+      }
+   }
+}
+
+.gold {
+   background-color: darken($grey-color, 10%);
+   padding: 1rem 1.5rem;
+   border-radius: 100%;
+   margin-top: 3rem;
+   width: 4rem;
+   position: fixed;
+   bottom: 3%;
+   right: 2%;
+   z-index: 7;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 4rem;
+   cursor: pointer;
+   @include easeOut();
+
+   i {
+      font-size: 2.3rem;
+      font-weight: 400;
+      color: $gold-color;
+      animation: move 3s infinite;
+      @include easeOut();
+   }
+
+   &:hover {
+      background-color: $gold-color;
+
+      i {
+         color: $white-color;
+      }
+   }
+}
+
 @keyframes move {
    0% {
       transform: translateY(0%);
@@ -416,24 +532,241 @@ header {
 }
 
 .contact {
-   height: 75vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
+   .content {
+      height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
 
-   h1 {
-      font-family: 'Smooch', cursive;
-      font-weight: lighter;
-      font-size: 7rem;
-      line-height: 1.5;
-      @include easeOut();
-   }
-   .icons {
-      i {
-         font-size: 2.5rem;
-         margin: 0 1rem 2rem 1rem;
+      h1 {
+         font-family: 'Smooch', cursive;
+         font-weight: lighter;
+         letter-spacing: 20px;
+         margin-bottom: 1rem;
+         font-size: 7rem;
+         line-height: 1.5;
+         @include easeOut();
       }
+      .icons {
+         a {
+            color: $black-color;
+            i {
+               font-size: 2.5rem;
+               margin: 0 1rem 2rem 1rem;
+               @include easeOut();
+            }
+
+            .fa-facebook:hover {
+               color: #4267b2;
+            }
+
+            .fa-twitter:hover {
+               color: #1e9beb;
+            }
+
+            .fa-instagram:hover {
+               color: #bf2e8e;
+            }
+
+            .fa-linkedin:hover {
+               color: #0077b5;
+            }
+
+            .fa-github:hover {
+               color: darken(#f5f5f5, 50%);
+            }
+         }
+      }
+   }
+}
+
+.files,
+.pick,
+.days {
+   min-height: 100vh;
+   .case-showcase {
+      position: relative;
+      img {
+         height: 80vh;
+         object-fit: cover;
+         width: 100%;
+      }
+
+      .details {
+         position: absolute;
+         top: 0;
+         left: 0;
+         color: $white-color;
+         background-color: rgba($black-color, 0.7);
+         width: 100%;
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+         flex-direction: column;
+         text-align: center;
+
+         h1 {
+            font-family: 'Smooch', cursive;
+            font-weight: lighter;
+            letter-spacing: 20px;
+            font-size: 7rem;
+            line-height: 1.5;
+            @include easeOut();
+         }
+
+         .icon-green,
+         .icon-brown,
+         .icon-gold {
+            background-color: $grey-color;
+            padding: 1rem 1.5rem;
+            border-radius: 100%;
+            cursor: pointer;
+            @include easeOut();
+
+            i {
+               font-size: 2.3rem;
+               font-weight: 400;
+               color: $green-color;
+               animation: move 3s infinite;
+               @include easeOut();
+            }
+
+            &:hover {
+               background-color: $green-color;
+
+               i {
+                  color: $white-color;
+               }
+            }
+         }
+
+         .icon-brown {
+            i {
+               color: $brown-color;
+            }
+
+            &:hover {
+               background-color: $brown-color;
+            }
+         }
+
+         .icon-gold {
+            i {
+               color: $gold-color;
+            }
+
+            &:hover {
+               background-color: $gold-color;
+            }
+         }
+
+         .bottom-details {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto;
+            text-transform: uppercase;
+         }
+      }
+   }
+
+   .about-project {
+      padding: 4rem 0;
+      .content {
+         width: 70%;
+         margin: auto;
+         height: 50vh;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+         flex-direction: column;
+         text-align: center;
+
+         i {
+            animation: moveIcon 2s infinite;
+         }
+
+         @keyframes moveIcon {
+            0% {
+               transform: translateX(0%);
+            }
+            50% {
+               transform: translateX(100%);
+            }
+            100% {
+               transform: translateX(0%);
+            }
+         }
+      }
+   }
+
+   .project-design-brown,
+   .project-design-green,
+   .project-design-gold {
+      background-color: lighten($green-color, 10%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 4rem 0;
+
+      .content {
+         width: 70%;
+         margin: auto;
+         color: $white-color;
+
+         h3 {
+            margin-bottom: 4rem;
+         }
+
+         .box {
+            margin: 2rem 0;
+
+            img {
+               border: 2px dotted darken($grey-color, 10%);
+               @include easeOut();
+               &:hover {
+                  border-style: solid;
+               }
+            }
+         }
+
+         .one {
+            transform: translateX(-5%);
+         }
+
+         .two {
+            transform: translateX(5%);
+         }
+      }
+   }
+}
+
+.pick {
+   .case-showcase {
+      .details {
+         background-color: rgba($black-color, 0.8);
+      }
+   }
+
+   .project-design-brown {
+      background-color: lighten($brown-color, 5%);
+   }
+}
+
+.days {
+   .case-showcase {
+      .details {
+         background-color: rgba($black-color, 0.8);
+      }
+   }
+
+   .project-design-gold {
+      background-color: lighten($gold-color, 5%);
    }
 }
 
@@ -451,18 +784,45 @@ footer {
       font-weight: lighter;
       font-size: 5rem;
       line-height: 1.5;
+      letter-spacing: 10px;
       cursor: pointer;
       @include easeOut();
-
-      span {
-         color: $primary-color;
-      }
    }
 
    .icons {
-      i {
-         font-size: 2rem;
-         margin: 0 1rem 2rem 1rem;
+      a {
+         color: $white-color;
+         i {
+            font-size: 2rem;
+            margin: 0 1rem 2rem 1rem;
+            @include easeOut();
+         }
+
+         .fa-facebook:hover {
+            color: #4267b2;
+         }
+
+         .fa-twitter:hover {
+            color: #1e9beb;
+         }
+
+         .fa-instagram:hover {
+            color: #bf2e8e;
+         }
+
+         .fa-linkedin:hover {
+            color: #0077b5;
+         }
+
+         .fa-github:hover {
+            color: darken(#f5f5f5, 10%);
+         }
+
+         .fa-envelope:hover {
+            color: #fbbc05;
+         }
       }
    }
 }
+
+@import 'mobile';

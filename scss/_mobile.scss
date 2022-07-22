@@ -1,0 +1,451 @@
+@media (max-width: 1080px) {
+   h1 {
+      font-size: 4rem;
+   }
+
+   h2 {
+      font-size: 2rem;
+   }
+
+   h3 {
+      font-size: 2rem;
+   }
+
+   h4 {
+      font-size: 1.5rem;
+   }
+
+   h5 {
+      font-size: 1rem;
+   }
+
+   h6 {
+      font-size: 0.8rem;
+   }
+
+   body {
+      font-size: 14px;
+   }
+
+   .btn {
+      font-size: 0.75rem;
+   }
+
+   header {
+      h3 {
+         font-family: 'Smooch', cursive;
+         font-size: 1.5rem;
+      }
+   }
+
+   .showcase {
+      h1 {
+         letter-spacing: 15px;
+         font-size: 6rem;
+      }
+
+      .icon {
+         background-color: $grey-color;
+         padding: 0.8rem 1.3rem;
+
+         i {
+            font-size: 2.1rem;
+         }
+      }
+   }
+
+   .icon-btn {
+      width: 3rem;
+
+      height: 3rem;
+
+      i {
+         font-size: 2.1rem;
+      }
+   }
+
+   .green {
+      width: 3rem;
+
+      height: 3rem;
+
+      i {
+         font-size: 2.1rem;
+      }
+   }
+
+   .brown {
+      width: 3rem;
+      height: 3rem;
+
+      i {
+         font-size: 2.1rem;
+      }
+   }
+
+   .gold {
+      width: 3rem;
+      height: 3rem;
+
+      i {
+         font-size: 2.1rem;
+      }
+   }
+
+   .files,
+   .pick,
+   .days {
+      .case-showcase {
+         .details {
+            h1 {
+               letter-spacing: 15px;
+               font-size: 5rem;
+            }
+
+            .icon-green,
+            .icon-brown,
+            .icon-gold {
+               padding: 0.8rem 1.3rem;
+
+               i {
+                  font-size: 2.1rem;
+               }
+            }
+         }
+      }
+   }
+
+   .contact {
+      .content {
+         h1 {
+            font-size: 5rem;
+         }
+         .icons {
+            a {
+               i {
+                  font-size: 1.5rem;
+               }
+            }
+         }
+      }
+   }
+
+   footer {
+      h2 {
+         font-size: 4rem;
+         line-height: 1.7;
+      }
+
+      .icons {
+         a {
+            i {
+               font-size: 1.5rem;
+            }
+         }
+      }
+   }
+}
+
+@media (max-width: 880px) {
+   h1 {
+      font-size: 3rem;
+   }
+
+   h2 {
+      font-size: 2rem;
+   }
+
+   h3 {
+      font-size: 1.5rem;
+   }
+
+   h4 {
+      font-size: 1rem;
+   }
+
+   h5 {
+      font-size: 0.8rem;
+   }
+
+   h6 {
+      font-size: 0.6rem;
+   }
+
+   body {
+      font-size: 12px;
+   }
+
+   .btn {
+      font-size: 0.5rem;
+   }
+
+   header {
+      h3 {
+         font-size: 1.2rem;
+      }
+   }
+
+   .showcase {
+      h1 {
+         letter-spacing: 10px;
+         font-size: 4rem;
+      }
+
+      .icon {
+         background-color: $grey-color;
+         padding: 0.8rem 1.3rem;
+
+         i {
+            font-size: 2.1rem;
+         }
+      }
+   }
+
+   .icon-btn {
+      width: 2rem;
+      height: 3rem;
+
+      i {
+         font-size: 1.5rem;
+      }
+   }
+
+   .green {
+      width: 2rem;
+      height: 3rem;
+
+      i {
+         font-size: 1.5rem;
+      }
+   }
+
+   .brown {
+      width: 2rem;
+      height: 3rem;
+
+      i {
+         font-size: 1.5rem;
+      }
+   }
+
+   .gold {
+      width: 2rem;
+      height: 3rem;
+
+      i {
+         font-size: 1.5rem;
+      }
+   }
+
+   .files,
+   .pick,
+   .days {
+      .case-showcase {
+         .details {
+            h1 {
+               letter-spacing: 15px;
+               font-size: 4rem;
+            }
+
+            .icon-green,
+            .icon-brown,
+            .icon-gold {
+               padding: 0.5rem 1rem;
+
+               i {
+                  font-size: 1.5rem;
+               }
+            }
+         }
+      }
+   }
+
+   .contact {
+      .content {
+         h1 {
+            font-size: 4rem;
+         }
+         .icons {
+            a {
+               i {
+                  font-size: 1.2rem;
+               }
+            }
+         }
+      }
+   }
+
+   footer {
+      h2 {
+         font-size: 3rem;
+         letter-spacing: 10px;
+      }
+
+      .icons {
+         a {
+            i {
+               font-size: 1.2rem;
+            }
+         }
+      }
+   }
+}
+
+@media (max-width: 680px) {
+   h1 {
+      font-size: 2rem;
+   }
+
+   h3 {
+      font-size: 1rem;
+   }
+
+   h4 {
+      font-size: 0.8rem;
+   }
+
+   h5 {
+      font-size: 0.6rem;
+   }
+
+   h6 {
+      font-size: 0.5rem;
+   }
+
+   body {
+      font-size: 10px;
+   }
+
+   .btn {
+      font-size: 0.5rem;
+   }
+
+   header {
+      h3 {
+         font-size: 1rem;
+      }
+   }
+
+   .showcase {
+      h1 {
+         letter-spacing: 5px;
+         font-size: 2.5rem;
+      }
+
+      .icon {
+         background-color: $grey-color;
+         padding: 0.5rem 1rem;
+
+         i {
+            font-size: 2.1rem;
+         }
+      }
+   }
+
+   .icon-btn {
+      width: 2rem;
+      height: 3rem;
+
+      i {
+         font-size: 1.5rem;
+      }
+   }
+
+   .green {
+      width: 2rem;
+      height: 3rem;
+
+      i {
+         font-size: 1.5rem;
+      }
+   }
+
+   .brown {
+      width: 2rem;
+      height: 3rem;
+
+      i {
+         font-size: 1.5rem;
+      }
+   }
+
+   .gold {
+      width: 2rem;
+      height: 3rem;
+
+      i {
+         font-size: 1.5rem;
+      }
+   }
+
+   .casestudies,
+   .skills,
+   .files,
+   .pick,
+   .days {
+      .content {
+         width: 90%;
+      }
+
+      .project-design-brown,
+      .project-design-green,
+      .project-design-gold {
+         .content {
+            width: 90%;
+         }
+      }
+   }
+
+   .files,
+   .pick,
+   .days {
+      .case-showcase {
+         .details {
+            h1 {
+               letter-spacing: 15px;
+               font-size: 2rem;
+            }
+
+            .icon-green,
+            .icon-brown,
+            .icon-gold {
+               padding: 0.5rem 1rem;
+
+               i {
+                  font-size: 1.5rem;
+               }
+            }
+         }
+      }
+   }
+
+   .contact {
+      .content {
+         h1 {
+            font-size: 2rem;
+         }
+         .icons {
+            a {
+               i {
+                  font-size: 0.9rem;
+               }
+            }
+         }
+      }
+   }
+
+   footer {
+      h2 {
+         font-size: 2rem;
+         letter-spacing: 10px;
+      }
+
+      .icons {
+         a {
+            i {
+               font-size: 0.9rem;
+            }
+         }
+      }
+   }
+}
