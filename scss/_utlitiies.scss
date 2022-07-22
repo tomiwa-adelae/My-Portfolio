@@ -1,0 +1,67 @@
+.container {
+   width: 85%;
+   margin: auto;
+   // background-color: red;
+}
+
+img {
+   width: 100%;
+}
+
+@mixin easeOut {
+   transition: all ease-out 0.5s;
+}
+
+h1 {
+   font-size: 5rem;
+}
+
+h2 {
+   font-size: 3rem;
+}
+
+h3 {
+   font-size: 2.5rem;
+}
+
+h4 {
+   font-size: 2rem;
+}
+
+h5 {
+   font-size: 1.5rem;
+}
+
+.btn {
+   padding: 0.5rem 1rem;
+   font-size: 0.9rem;
+   outline: none;
+   cursor: pointer;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   position: relative;
+   text-transform: uppercase;
+   @include easeOut();
+
+   &-primary {
+      border: 2px solid $primary-color;
+      background-color: transparent;
+      color: $primary-color;
+
+      &:hover {
+         background-color: $primary-color;
+         color: $white-color;
+      }
+   }
+
+   &-dark {
+      border: 2px solid $dark-color;
+      background-color: transparent;
+      color: $dark-color;
+
+      &:hover {
+         background-color: $white-color;
+         color: $dark-color;
+      }
+   }
+}
