@@ -55,6 +55,10 @@ h6 {
    color: $gold-color;
 }
 
+.text-shop-grey {
+   color: $shop-grey-color;
+}
+
 .btn {
    padding: 0.5rem 1rem;
    font-size: 0.9rem;
@@ -118,6 +122,17 @@ h6 {
       &:hover {
          background-color: $white-color;
          color: $dark-color;
+      }
+   }
+
+   &-shop-grey {
+      border: 2px solid $shop-grey-color;
+      background-color: transparent;
+      color: $shop-grey-color;
+
+      &:hover {
+         background-color: $white-color;
+         color: $shop-grey-color;
       }
    }
 }

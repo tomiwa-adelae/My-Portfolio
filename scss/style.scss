@@ -223,6 +223,7 @@ header {
       }
 
       .file-case,
+      .shop-case,
       .day-case {
          transform: translateX(-5%);
 
@@ -250,7 +251,8 @@ header {
          }
       }
 
-      .pick-case {
+      .pick-case,
+      .wings-case {
          transform: translateX(5%);
 
          .case-preview {
@@ -583,7 +585,9 @@ header {
 
 .files,
 .pick,
-.days {
+.days,
+.shop,
+.wings {
    min-height: 100vh;
    .case-showcase {
       position: relative;
@@ -618,7 +622,8 @@ header {
 
          .icon-green,
          .icon-brown,
-         .icon-gold {
+         .icon-gold,
+         .icon-shop-grey {
             background-color: $grey-color;
             padding: 1rem 1.5rem;
             border-radius: 100%;
@@ -659,6 +664,16 @@ header {
 
             &:hover {
                background-color: $gold-color;
+            }
+         }
+
+         .icon-shop-grey {
+            i {
+               color: $shop-grey-color;
+            }
+
+            &:hover {
+               background-color: $shop-grey-color;
             }
          }
 
@@ -705,7 +720,8 @@ header {
 
    .project-design-brown,
    .project-design-green,
-   .project-design-gold {
+   .project-design-gold,
+   .project-design-shop-grey {
       background-color: lighten($green-color, 10%);
       display: flex;
       align-items: center;
@@ -767,6 +783,18 @@ header {
 
    .project-design-gold {
       background-color: lighten($gold-color, 5%);
+   }
+}
+
+.shop {
+   .case-showcase {
+      .details {
+         background-color: rgba($black-color, 0.8);
+      }
+   }
+
+   .project-design-shop-grey {
+      background-color: lighten($shop-grey-color, 5%);
    }
 }
 
