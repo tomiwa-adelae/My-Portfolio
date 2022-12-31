@@ -54,15 +54,13 @@ const shop = () => {
             <div className="content">
                <h3>The Project</h3>
                <p>
-                  Files App is a meticulously designed web application for
-                  storing any type of information, photos, or contacts. Files
-                  App is intended to meet the majority of file structure and
-                  information requirements.
+                  S-SHOP is a meticulously created E-Commerce app for the
+                  purpose of buying and selling in school environment.
                </p>
                <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://tomiwaadelae.netlify.app/"
+                  href="https://sshop.com.ng/"
                >
                   <div className="btn btn-shop-grey">
                      Visit Website <i className="fas fa-angle-right"></i>
