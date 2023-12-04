@@ -1,33 +1,35 @@
 import Meta from "../components/Meta";
 import Link from "next/link";
 
-const shop = () => {
+const bconcept = () => {
 	return (
-		<div className="shop">
+		<div className="bconcept">
 			<Meta
-				title="Tomiwa Adelae | S-SHOP"
+				title="Tomiwa Adelae | B.one Concept"
 				description="We buy and sell"
 				keywords="shops, S-SHOP app, E-ECOMMERCE app, app"
 			/>
 			<header>
 				<Link href="/">
 					<h3>
-						Tomiwa <span className="text-shop-grey">Adelae</span>
+						Tomiwa{" "}
+						<span className="text-bconcept-brown">Adelae</span>
 					</h3>
 				</Link>
 				<Link href="/contact">
-					<div className="btn btn-shop-grey">Get In Touch</div>
+					<div className="btn btn-bconcept-brown">Get In Touch</div>
 				</Link>
 			</header>
 			<div className="case-showcase">
-				<img src="shop.jpg" alt="" />
+				<img src="bconcept.jpg" alt="B.one Concept" />
 				<div className="details">
 					<div className="intro">
 						<h1>
-							S-<span>SHOP</span>
+							B.one<span>Concept</span>
 						</h1>
 						<h5>
-							An app for buying and selling in school environment
+							A website to showcase one's business in electronics
+							and its accessories
 						</h5>
 					</div>
 					<div
@@ -37,18 +39,18 @@ const shop = () => {
 								behavior: "smooth",
 							});
 						}}
-						className="icon-shop-grey"
+						className="icon-bconcept-brown"
 					>
 						<i className="fas fa-angle-down"></i>
 					</div>
 					<div className="bottom-details">
 						<h6>
-							<span className="text-shop-grey">Role</span> Full
-							Stack Developer
+							<span className="text-bconcept-brown">Role</span>{" "}
+							Full Stack Developer
 						</h6>
 						<h6>
-							<span className="text-shop-grey">Period</span> Late
-							2022
+							<span className="text-bconcept-brown">Period</span>{" "}
+							Late 2023
 						</h6>
 					</div>
 				</div>
@@ -57,33 +59,34 @@ const shop = () => {
 				<div className="content">
 					<h3>The Project</h3>
 					<p>
-						S-SHOP is a meticulously created E-Commerce app for the
-						purpose of buying and selling in school environment.
+						B.one Concept is a carefully designed project meant to
+						solve the problem of the absence of an online presence
+						for an Electronics company.
 					</p>
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
-						href="https://sshop-customer.netlify.app/"
+						href="https://b-one-concept.vercel.app/"
 					>
-						<div className="btn btn-shop-grey">
+						<div className="btn btn-bconcept-brown">
 							Visit Website <i className="fas fa-angle-right"></i>
 						</div>
 					</a>
 				</div>
 			</div>
-			<div className="project-design-shop-grey">
+			<div className="project-design-bconcept-brown">
 				<div className="content">
 					<h3>Design</h3>
 
 					<div className="boxes">
 						<div className="box one">
-							<img src="shopone.jpg" alt="" />
+							<img src="bconceptone.jpg" alt="B.one Concept" />
 						</div>
 						<div className="box two">
-							<img src="shoptwo.jpg" alt="" />
+							<img src="bconcepttwo.jpg" alt="B.one Concept" />
 						</div>
 						<div className="box one">
-							<img src="shopthree.jpg" alt="" />
+							<img src="bconceptthree.jpg" alt="B.one Concept" />
 						</div>
 					</div>
 				</div>
@@ -98,7 +101,7 @@ const shop = () => {
 						});
 					}}
 				>
-					Tomiwa <span className="text-shop-grey">Adelae</span>
+					Tomiwa <span className="text-bconcept-brown">Adelae</span>
 				</h2>
 
 				<div className="icons">
@@ -152,4 +155,4 @@ const shop = () => {
 	);
 };
 
-export default shop;
+export default bconcept;

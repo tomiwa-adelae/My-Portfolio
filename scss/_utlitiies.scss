@@ -1,138 +1,153 @@
 .container {
-   width: 85%;
-   margin: auto;
+	width: 85%;
+	margin: auto;
 }
 
 a {
-   text-decoration: none;
+	text-decoration: none;
 }
 
 img {
-   width: 100%;
+	width: 100%;
 }
 
 @mixin easeOut {
-   transition: all ease-out 0.5s;
+	transition: all ease-out 0.5s;
 }
 
 h1 {
-   font-size: 5rem;
+	font-size: 5rem;
 }
 
 h2 {
-   font-size: 3rem;
+	font-size: 3rem;
 }
 
 h3 {
-   font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 h4 {
-   font-size: 2rem;
+	font-size: 2rem;
 }
 
 h5 {
-   font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 h6 {
-   font-size: 1rem;
+	font-size: 1rem;
 }
 
 .text-primary {
-   color: $primary-color;
+	color: $primary-color;
 }
 
 .text-green {
-   color: $green-color;
+	color: $green-color;
 }
 
 .text-brown {
-   color: $brown-color;
+	color: $brown-color;
 }
 
 .text-gold {
-   color: $gold-color;
+	color: $gold-color;
 }
 
 .text-shop-grey {
-   color: $shop-grey-color;
+	color: $shop-grey-color;
+}
+
+.text-bconcept-brown {
+	color: $bconcept-brown-color;
 }
 
 .btn {
-   padding: 0.5rem 1rem;
-   font-size: 0.9rem;
-   outline: none;
-   cursor: pointer;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: bold;
-   position: relative;
-   text-transform: uppercase;
-   @include easeOut();
+	padding: 0.5rem 1rem;
+	font-size: 0.9rem;
+	outline: none;
+	cursor: pointer;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	position: relative;
+	text-transform: uppercase;
+	@include easeOut();
 
-   &-primary {
-      border: 2px solid $primary-color;
-      background-color: transparent;
-      color: $primary-color;
+	&-primary {
+		border: 2px solid $primary-color;
+		background-color: transparent;
+		color: $primary-color;
 
-      &:hover {
-         background-color: $primary-color;
-         color: $white-color;
-      }
-   }
+		&:hover {
+			background-color: $primary-color;
+			color: $white-color;
+		}
+	}
 
-   &-green {
-      border: 2px solid $green-color;
-      background-color: transparent;
-      color: $green-color;
+	&-green {
+		border: 2px solid $green-color;
+		background-color: transparent;
+		color: $green-color;
 
-      &:hover {
-         background-color: $green-color;
-         color: $white-color;
-      }
-   }
+		&:hover {
+			background-color: $green-color;
+			color: $white-color;
+		}
+	}
 
-   &-brown {
-      border: 2px solid $brown-color;
-      background-color: transparent;
-      color: $brown-color;
+	&-brown {
+		border: 2px solid $brown-color;
+		background-color: transparent;
+		color: $brown-color;
 
-      &:hover {
-         background-color: $brown-color;
-         color: $white-color;
-      }
-   }
+		&:hover {
+			background-color: $brown-color;
+			color: $white-color;
+		}
+	}
 
-   &-gold {
-      border: 2px solid $gold-color;
-      background-color: transparent;
-      color: $gold-color;
+	&-gold {
+		border: 2px solid $gold-color;
+		background-color: transparent;
+		color: $gold-color;
 
-      &:hover {
-         background-color: $gold-color;
-         color: $white-color;
-      }
-   }
+		&:hover {
+			background-color: $gold-color;
+			color: $white-color;
+		}
+	}
 
-   &-dark {
-      border: 2px solid $dark-color;
-      background-color: transparent;
-      color: $dark-color;
+	&-dark {
+		border: 2px solid $dark-color;
+		background-color: transparent;
+		color: $dark-color;
 
-      &:hover {
-         background-color: $white-color;
-         color: $dark-color;
-      }
-   }
+		&:hover {
+			background-color: $white-color;
+			color: $dark-color;
+		}
+	}
 
-   &-shop-grey {
-      border: 2px solid $shop-grey-color;
-      background-color: transparent;
-      color: $shop-grey-color;
+	&-shop-grey {
+		border: 2px solid $shop-grey-color;
+		background-color: transparent;
+		color: $shop-grey-color;
 
-      &:hover {
-         background-color: $white-color;
-         color: $shop-grey-color;
-      }
-   }
+		&:hover {
+			background-color: $shop-grey-color;
+			color: $white-color;
+		}
+	}
+
+	&-bconcept-brown {
+		border: 2px solid $bconcept-brown-color;
+		background-color: transparent;
+		color: $bconcept-brown-color;
+
+		&:hover {
+			background-color: $bconcept-brown-color;
+			color: $white-color;
+		}
+	}
 }
