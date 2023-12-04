@@ -62,8 +62,9 @@ const contact = () => {
 						<i className="fas fa-envelope"></i>
 					</a>
 				</div>
-
-				<h5>(+234) 802 783 6001</h5>
+				<a className="tel" href="tel: +234 802 783 6001">
+					<h5>(+234) 802 783 6001</h5>
+				</a>
 			</div>
 			<footer>
 				<h2
