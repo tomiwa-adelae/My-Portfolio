@@ -28,8 +28,8 @@ const bconcept = () => {
 							B.one<span>Concept</span>
 						</h1>
 						<h5>
-							A website to showcase one's business in electronics
-							and its accessories
+							A website to showcase one&#39;s business in
+							electronics and its accessories
 						</h5>
 					</div>
 					<div

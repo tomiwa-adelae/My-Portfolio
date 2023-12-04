@@ -100,7 +100,7 @@ const CaseStudies = () => {
 							<span>
 								<h3>B.one Concept</h3>
 								<p>
-									A website to showcase one's business in
+									A website to showcase one&#39;s business in
 									electronics and its accessories
 								</p>
 								<button className="btn btn-white">
