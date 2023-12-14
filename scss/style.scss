@@ -123,6 +123,7 @@ header {
 	}
 }
 
+
 .about {
 	background-color: $dark-color;
 	color: $white-color;
@@ -416,6 +417,18 @@ header {
 
 		i {
 			color: $white-color;
+		}
+	}
+
+	@keyframes move {
+		0% {
+			transform: translateY(0%);
+		}
+		50% {
+			transform: translateY(40%);
+		}
+		100% {
+			transform: translateY(0%);
 		}
 	}
 }
