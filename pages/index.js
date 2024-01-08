@@ -84,7 +84,7 @@ export default function Home() {
 					</a>
 				</div>
 
-				<p>&copy; Tomiwa Adelae 2023</p>
+				<p>&copy; Tomiwa Adelae 2024</p>
 			</footer>
 		</div>
 	);

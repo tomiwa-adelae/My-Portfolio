@@ -149,7 +149,7 @@ const bconcept = () => {
 					</a>
 				</div>
 
-				<p>&copy; Tomiwa Adelae 2023</p>
+				<p>&copy; Tomiwa Adelae 2024</p>
 			</footer>
 		</div>
 	);
