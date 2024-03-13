@@ -111,6 +111,44 @@ const CaseStudies = () => {
 						</div>
 					</Link>
 				</div>
+				<div className="acusa-case case">
+					<img src="acusa.jpg" alt="Shop App" />
+					<Link href="acusa">
+						<div className="case-preview">
+							<span>
+								<h3>ACUSA</h3>
+								<p>
+									Ajayi Crowther University Student Assembly
+									website to showcase the activities and
+									events of the whole university.
+								</p>
+								<button className="btn btn-white">
+									Case Study{" "}
+									<i className="fas fa-angle-right"></i>
+								</button>
+							</span>
+						</div>
+					</Link>
+				</div>
+				<div className="safepay-case case">
+					<img src="safepay.jpg" alt="Shop App" />
+					<Link href="safepay">
+						<div className="case-preview">
+							<span>
+								<h3>Safepay</h3>
+								<p>
+									A fictitious banking application that is
+									fully functional and does transactions in
+									real time.
+								</p>
+								<button className="btn btn-white">
+									Case Study{" "}
+									<i className="fas fa-angle-right"></i>
+								</button>
+							</span>
+						</div>
+					</Link>
+				</div>
 			</div>
 		</div>
 	);

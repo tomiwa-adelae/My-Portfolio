@@ -63,6 +63,14 @@ h6 {
 	color: $bconcept-brown-color;
 }
 
+.text-acusa-purple {
+	color: $acusa-purple-color;
+}
+
+.text-safepay-blue {
+	color: $safepay-blue-color;
+}
+
 .btn {
 	padding: 0.5rem 1rem;
 	font-size: 0.9rem;
@@ -147,6 +155,28 @@ h6 {
 
 		&:hover {
 			background-color: $bconcept-brown-color;
+			color: $white-color;
+		}
+	}
+
+	&-acusa-purple {
+		border: 2px solid $acusa-purple-color;
+		background-color: transparent;
+		color: $acusa-purple-color;
+
+		&:hover {
+			background-color: $acusa-purple-color;
+			color: $white-color;
+		}
+	}
+
+	&-safepay-blue {
+		border: 2px solid $safepay-blue-color;
+		background-color: transparent;
+		color: $safepay-blue-color;
+
+		&:hover {
+			background-color: $safepay-blue-color;
 			color: $white-color;
 		}
 	}
