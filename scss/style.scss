@@ -225,8 +225,7 @@ header {
 		.file-case,
 		.shop-case,
 		.day-case,
-		.bconcept-case,
-		.safepay-case {
+		.wings-case {
 			transform: translateX(-5%);
 
 			&:hover {
@@ -254,8 +253,9 @@ header {
 		}
 
 		.pick-case,
-		.wings-case,
-		.acusa-case {
+		.acusa-case,
+		.safepay-case,
+		.bconcept-case {
 			transform: translateX(5%);
 
 			.case-preview {

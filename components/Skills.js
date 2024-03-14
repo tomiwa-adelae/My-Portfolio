@@ -29,6 +29,7 @@ const Skills = () => {
 						<ul>
 							<li>Figma</li>
 							<li>Font Awesome</li>
+							<li>React Icons</li>
 							<li>Pen & Paper</li>
 							<li>Sketch</li>
 						</ul>
@@ -48,9 +49,11 @@ const Skills = () => {
 						<h5>Frontend Languages I speak:</h5>
 						<ul>
 							<li>HTML</li>
-							<li>CSS & Sass</li>
-							<li>React JS & Next JS</li>
+							<li>CSS</li>
+							<li>Sass</li>
 							<li>JavaScript</li>
+							<li>React JS</li>
+							<li>Next JS</li>
 							<li>Git</li>
 						</ul>
 					</div>
@@ -60,8 +63,10 @@ const Skills = () => {
 							<li>Visual Studio Code</li>
 							<li>Bootstrap</li>
 							<li>Materialize CSS</li>
+							<li>Tailwind CSS</li>
 							<li>Codepen</li>
 							<li>Github</li>
+							<li>Gitlab</li>
 							<li>Terminal</li>
 						</ul>
 					</div>
@@ -89,12 +94,15 @@ const Skills = () => {
 						<h5>Development Tools:</h5>
 						<ul>
 							<li>Visual Studio Code</li>
+							<li>Sublime text</li>
 							<li>Terminal</li>
 							<li>Git Bash</li>
 							<li>Github</li>
 							<li>Terminal</li>
 							<li>Heroku</li>
 							<li>Vercel</li>
+							<li>Netlify</li>
+							<li>Render</li>
 						</ul>
 					</div>
 				</div>

@@ -24,6 +24,25 @@ const CaseStudies = () => {
                   </div>
                </Link>
             </div> */}
+				<div className="acusa-case case">
+					<img src="acusa.jpg" alt="Shop App" />
+					<Link href="acusa">
+						<div className="case-preview">
+							<span>
+								<h3>ACUSA</h3>
+								<p>
+									Ajayi Crowther University Student Assembly
+									website to showcase the activities and
+									events of the whole university.
+								</p>
+								<button className="btn btn-white">
+									Case Study{" "}
+									<i className="fas fa-angle-right"></i>
+								</button>
+							</span>
+						</div>
+					</Link>
+				</div>
 				<div className="shop-case case">
 					<img src="shop.jpg" alt="Shop App" />
 					<Link href="shop">
@@ -33,6 +52,26 @@ const CaseStudies = () => {
 								<p>
 									An app for buying and selling in school
 									environment
+								</p>
+								<button className="btn btn-white">
+									Case Study{" "}
+									<i className="fas fa-angle-right"></i>
+								</button>
+							</span>
+						</div>
+					</Link>
+				</div>
+
+				<div className="safepay-case case">
+					<img src="safepay.jpg" alt="Shop App" />
+					<Link href="safepay">
+						<div className="case-preview">
+							<span>
+								<h3>Safepay</h3>
+								<p>
+									A fictitious banking application that is
+									fully functional and does transactions in
+									real time.
 								</p>
 								<button className="btn btn-white">
 									Case Study{" "}
@@ -61,7 +100,7 @@ const CaseStudies = () => {
 					</Link>
 				</div>
 
-				<div className="day-case case">
+				{/* <div className="day-case case">
 					<img src="day.jpg" alt="D-Days" />
 					<Link href="days">
 						<div className="case-preview">
@@ -75,9 +114,9 @@ const CaseStudies = () => {
 							</span>
 						</div>
 					</Link>
-				</div>
+				</div> */}
 
-				<div className="pick-case case">
+				{/* <div className="pick-case case">
 					<img src="pick.jpg" alt="Pick Me Fashions" />
 					<Link href="pick">
 						<div className="case-preview">
@@ -91,7 +130,7 @@ const CaseStudies = () => {
 							</span>
 						</div>
 					</Link>
-				</div>
+				</div> */}
 
 				<div className="bconcept-case case">
 					<img src="bconcept.jpg" alt="Shop App" />
@@ -102,44 +141,6 @@ const CaseStudies = () => {
 								<p>
 									A website to showcase one&#39;s business in
 									electronics and its accessories
-								</p>
-								<button className="btn btn-white">
-									Case Study{" "}
-									<i className="fas fa-angle-right"></i>
-								</button>
-							</span>
-						</div>
-					</Link>
-				</div>
-				<div className="acusa-case case">
-					<img src="acusa.jpg" alt="Shop App" />
-					<Link href="acusa">
-						<div className="case-preview">
-							<span>
-								<h3>ACUSA</h3>
-								<p>
-									Ajayi Crowther University Student Assembly
-									website to showcase the activities and
-									events of the whole university.
-								</p>
-								<button className="btn btn-white">
-									Case Study{" "}
-									<i className="fas fa-angle-right"></i>
-								</button>
-							</span>
-						</div>
-					</Link>
-				</div>
-				<div className="safepay-case case">
-					<img src="safepay.jpg" alt="Shop App" />
-					<Link href="safepay">
-						<div className="case-preview">
-							<span>
-								<h3>Safepay</h3>
-								<p>
-									A fictitious banking application that is
-									fully functional and does transactions in
-									real time.
 								</p>
 								<button className="btn btn-white">
 									Case Study{" "}

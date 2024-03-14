@@ -80,13 +80,13 @@ const acusa = () => {
 
 					<div className="boxes">
 						<div className="box one">
-							<img src="acusaone.jpg" alt="ACUSA" />
+							<img src="acusaone.jpg" alt="acusa" />
 						</div>
 						<div className="box two">
-							<img src="acusatwo.jpg" alt="ACUSA" />
+							<img src="acusatwo.jpg" alt="acusa" />
 						</div>
 						<div className="box one">
-							<img src="acusathree.jpg" alt="ACUSA" />
+							<img src="acusathree.jpg" alt="acusa" />
 						</div>
 					</div>
 				</div>
