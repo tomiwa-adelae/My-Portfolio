@@ -119,7 +119,7 @@ const shop = () => {
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
-						href="https://twitter.com/TheTomMedia"
+						href="https://twitter.com/tomiwaadelae"
 					>
 						<i className="fab fa-twitter"></i>
 					</a>
@@ -133,7 +133,7 @@ const shop = () => {
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
-						href="https://github.com/AdemolaTomiwa"
+						href="https://github.com/tomiwa-adelae"
 					>
 						<i className="fab fa-github"></i>
 					</a>
@@ -146,7 +146,7 @@ const shop = () => {
 					</a>
 				</div>
 
-				<p>&copy; Tomiwa Adelae 2024</p>
+				<p>&copy; 2024 Tomiwa Adelae. All Rights Reserved</p>
 			</footer>
 		</div>
 	);

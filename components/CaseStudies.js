@@ -35,9 +35,11 @@ const CaseStudies = () => {
 									website to showcase the activities and
 									events of the whole university.
 								</p>
-								<button className="btn btn-white">
-									Case Study{" "}
-									<i className="fas fa-angle-right"></i>
+								<button className="btn btn-acusa-purple">
+									<span className="text-white">
+										Case Study
+										<i className="fas fa-angle-right"></i>
+									</span>{" "}
 								</button>
 							</span>
 						</div>
@@ -53,9 +55,11 @@ const CaseStudies = () => {
 									An app for buying and selling in school
 									environment
 								</p>
-								<button className="btn btn-white">
-									Case Study{" "}
-									<i className="fas fa-angle-right"></i>
+								<button className="btn btn-shop-grey">
+									<span className="text-white">
+										Case Study
+										<i className="fas fa-angle-right"></i>
+									</span>{" "}
 								</button>
 							</span>
 						</div>
@@ -73,9 +77,11 @@ const CaseStudies = () => {
 									fully functional and does transactions in
 									real time.
 								</p>
-								<button className="btn btn-white">
-									Case Study{" "}
-									<i className="fas fa-angle-right"></i>
+								<button className="btn btn-safepay-blue">
+									<span className="text-white">
+										Case Study
+										<i className="fas fa-angle-right"></i>
+									</span>{" "}
 								</button>
 							</span>
 						</div>
@@ -92,8 +98,10 @@ const CaseStudies = () => {
 									A website for daily loads of the word of God
 								</p>
 								<button className="btn btn-green">
-									Case Study{" "}
-									<i className="fas fa-angle-right"></i>
+									<span className="text-white">
+										Case Study
+										<i className="fas fa-angle-right"></i>
+									</span>{" "}
 								</button>
 							</span>
 						</div>
@@ -108,8 +116,10 @@ const CaseStudies = () => {
 								<h3>D-Days</h3>
 								<p>An app for keeping track of birthdays</p>
 								<button className="btn btn-primary">
-									Case Study{" "}
-									<i className="fas fa-angle-right"></i>
+									<span className="text-white">
+										Case Study
+										<i className="fas fa-angle-right"></i>
+									</span>{" "}
 								</button>
 							</span>
 						</div>
@@ -124,8 +134,10 @@ const CaseStudies = () => {
 								<h3>Pick Me Fashions</h3>
 								<p>A shopping website</p>
 								<button className="btn btn-dark">
-									Case Study{" "}
-									<i className="fas fa-angle-right"></i>
+									<span className="text-white">
+										Case Study
+										<i className="fas fa-angle-right"></i>
+									</span>{" "}
 								</button>
 							</span>
 						</div>
@@ -142,9 +154,11 @@ const CaseStudies = () => {
 									A website to showcase one&#39;s business in
 									electronics and its accessories
 								</p>
-								<button className="btn btn-white">
-									Case Study{" "}
-									<i className="fas fa-angle-right"></i>
+								<button className="btn btn-bconcept-brown">
+									<span className="text-white">
+										Case Study
+										<i className="fas fa-angle-right"></i>
+									</span>{" "}
 								</button>
 							</span>
 						</div>

@@ -271,14 +271,14 @@ header {
 					span {
 						animation: movePick 2s forwards;
 
-						.btn {
-							border-color: $white-color;
-							color: $white-color;
+						// .btn {
+						// 	border-color: $white-color;
+						// 	color: $white-color;
 
-							&:hover {
-								color: $dark-color;
-							}
-						}
+						// 	&:hover {
+						// 		color: $dark-color;
+						// 	}
+						// }
 					}
 				}
 			}
